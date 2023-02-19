@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Scoreboard - Scrimba</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- home -->
+			<div>
+				<h3 class="home-hdr">HOME</h3>
+				<div class="home-box">
+					<div id="homeScore">0</div>
+				</div>
+				<div class="increments">
+					<button class="plusOneHome" onclick="plusOneHome()">+1</button>
+					<button class="plusTwoHome" onclick="plusTwoHome()">+2</button>
+					<button class="plusThreeHome" onclick="plusThreeHome()">+3</button>
+				</div>
+			</div>
+			<!-- guest -->
+			<div>
+				<h3 class="guest-hdr">GUEST</h3>
+				<div class="guest-box">
+					<div id="guestScore">0</div>
+				</div>
+				<div class="increments">
+					<button class="plusOneGuest" onclick="plusOneGuest()">+1</button>
+					<button class="plusTwoGuest" onclick="plusTwoGuest()">+2</button>
+					<button class="plusThreeGuest" onclick="plusThreeGuest()">+3</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="newGame">
+			<button class="newGame-btn" onclick="newGame()">New Game</button>
+			<script src="index.js"></script>
+		</div>
+	</body>
+</html>
