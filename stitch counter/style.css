@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/011/592/600/non_2x/blue-and-white-cross-stitch-pattern-purple-and-yellow-embroidery-repeat-background-knitted-vector.jpg");
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+.container {
+  box-sizing: border-box;
+  border: solid white 1px;
+  border-radius: 10px;
+  width: 20rem;
+  height: 25rem;
+  background: white;
+  margin: 10rem auto;
+}
+
+
+button {
+  border: none;
+  padding: 10px;
+  color: #fff;
+  width: 200px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#increment-btn {
+  background: #D7BD8E;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+
+}
+
+#save-btn {
+  font-size: 1.5rem;
+  background: #1C859B;
+}
