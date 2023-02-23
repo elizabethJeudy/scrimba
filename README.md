@@ -32,7 +32,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 #### Challenges:
 
-##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this:
+##### My challenge with this project was figuring out how to increment both home and guest scoreboards. At first, my code looked like this:
 
 ```js
 <div class="increments">
@@ -48,7 +48,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 </div>
 ```
 
-##### With this, all 6 buttons worked however, only the home scoreboard was incrementing. Since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was to create functions for both home and guest boards.
+##### With this, all 6 buttons worked however, only the home scoreboard was incrementing. Since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was to create functions for both home and guest boards which allowed them both to be manipulated.
 
 <a name="blackjack-game"></a>
 
@@ -58,9 +58,10 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/blackjack.png)
 
+<!-->
 <a name="random-password-generator">
 
-### Random Password Generator
+### Random Password Generator (in process)
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/LYBgrBN
 
@@ -68,6 +69,6 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 <a name="chrome-extension">
 
-### Chrome Extension
+### Chrome Extension (in process)
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/rNZeQwp
