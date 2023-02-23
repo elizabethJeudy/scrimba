@@ -4,7 +4,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ### Table of Contents
 
-1. [Stitch Counter](#stitch-counter)
+[Stitch Counter](#stitch-counter)
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/JjBpxXv
 
@@ -14,7 +14,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ##### \* _onclick_ - similar to an **addEventListener** the onclick event executes a specific function when a button is clicked. Unlike event listeners, onclick only works one time, when the user clicks on a button, and does not attach itself to any other elements. If the code has multiple events, onclick will overwrite them all and render the final one.
 
-2. [Scoreboard](#scoreboard)
+[Scoreboard](#scoreboard)
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/QWBQeMR
 
@@ -22,9 +22,9 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this
 
-3. [BlackJack Game](#blackjack-game)
+[BlackJack Game](#blackjack-game)
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/vYajxeZ
 
-4. [Random Password Generator](#random-password-generator)
-5. [Chrome Extension](#chrome-extension)
+[Random Password Generator](#random-password-generator)
+[Chrome Extension](#chrome-extension)
