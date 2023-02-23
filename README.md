@@ -2,9 +2,9 @@
 
 These 4 projects were completed while working on the Learn Javascript course with Scrimba. Below you'll see each project, view it live, and read about any challenges I faced. All of these projects were created with vanilla javascript. View the entire collection on my codepen https://codepen.io/collection/bNLRak
 
-### Table of Contents
+### Table of Contents:
 
-1. [Stitch-Counter](#stitch-counter)
+1. [Stitch Counter](#stitch-counter)
 2. [Scoreboard](#scoreboard)
 3. [BlackJack Game](#blackjack-game)
 4. [Random Password Generator](#random-password-generator)
@@ -30,7 +30,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 #### Challenges:
 
-##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this
+##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this:
 
 ```js
 <div class="increments">
@@ -46,6 +46,8 @@ These 4 projects were completed while working on the Learn Javascript course wit
 </div>
 ```
 
+##### and since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was the create functions for both home and guest boards.
+
 <a name="blackjack-game"></a>
 
 ### Blackjack Game
@@ -56,6 +58,10 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ### Random Password Generator
 
+###### Live: https://codepen.io/elizabethJeudy/pen/LYBgrBN
+
 <a name="chrome-extension">
 
 ### Chrome Extension
+
+###### Live: https://codepen.io/elizabethJeudy/pen/rNZeQwp
