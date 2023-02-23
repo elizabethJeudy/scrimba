@@ -2,7 +2,7 @@
 
 These 4 projects were completed while working on the Learn Javascript course with Scrimba. Below you'll see each project, view it live, and read about any challenges I faced. All of these projects were created with vanilla javascript. View the entire collection on my codepen https://codepen.io/collection/bNLRak
 
-### Table of Contents:
+## Table of Contents:
 
 1. [Stitch Counter](#stitch-counter)
 2. [Scoreboard](#scoreboard)
@@ -46,7 +46,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 </div>
 ```
 
-##### and since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was the create functions for both home and guest boards.
+##### With this, all 6 buttons worked however, only the home scoreboard was incrementing. Since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was the create functions for both home and guest boards.
 
 <a name="blackjack-game"></a>
 
