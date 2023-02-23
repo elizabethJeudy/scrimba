@@ -38,12 +38,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
   <button class="plusTwo" onclick="plusTwo()">+2</button>
   <button class="plusThree" onclick="plusThree()">+3</button>
 </div>
-
-          ```
-
-
-
-
+```
 
 
 <a name="blackjack-game"></a>
@@ -59,4 +54,5 @@ These 4 projects were completed while working on the Learn Javascript course wit
 <a name="chrome-extension">
 
 ### Chrome Extension
+
 ````
