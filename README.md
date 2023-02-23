@@ -32,15 +32,20 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this
 
-````js
+```js
 <div class="increments">
-  <button class="plusOne" onclick="plusOne()">+1</button>
-  <button class="plusTwo" onclick="plusTwo()">+2</button>
-  <button class="plusThree" onclick="plusThree()">+3</button>
+	<button class="plusOne" onclick="plusOne()">
+		+1
+	</button>
+	<button class="plusTwo" onclick="plusTwo()">
+		+2
+	</button>
+	<button class="plusThree" onclick="plusThree()">
+		+3
+	</button>
 </div>
 ```
 
-/*
 <a name="blackjack-game"></a>
 
 ### Blackjack Game
@@ -54,5 +59,3 @@ These 4 projects were completed while working on the Learn Javascript course wit
 <a name="chrome-extension">
 
 ### Chrome Extension
-*/
-````
