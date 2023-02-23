@@ -4,7 +4,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ### Table of Contents
 
-1. [Stitch-Counter] (#stitch-counter)
+1. [Stitch-Counter](#stitch-counter)
 2. [Scoreboard](#scoreboard)
 3. [BlackJack Game](#blackjack-game)
 4. [Random Password Generator](#random-password-generator)
