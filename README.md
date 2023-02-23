@@ -4,8 +4,11 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ### Table of Contents
 
-1. [Stitch Counter] (#stitch-counter)
+1. [Stitch-Counter] (#stitch-counter)
 2. [Scoreboard](#scoreboard)
+3. [BlackJack Game](#blackjack-game)
+4. [Random Password Generator](#random-password-generator)
+5. [Chrome Extension](#chrome-extension)
 
 <a name="stitch-counter"></a>
 
@@ -29,9 +32,31 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ##### 1. My first challenge was figuring out how to increment both home and guest scoreboards. At first, my code looked like this
 
-3. [BlackJack Game](#blackjack-game)
+````js
+<div class="increments">
+  <button class="plusOne" onclick="plusOne()">+1</button>
+  <button class="plusTwo" onclick="plusTwo()">+2</button>
+  <button class="plusThree" onclick="plusThree()">+3</button>
+</div>
+
+          ```
+
+
+
+
+
+
+<a name="blackjack-game"></a>
+
+### Blackjack Game
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/vYajxeZ
 
-4. [Random Password Generator](#random-password-generator)
-5. [Chrome Extension](#chrome-extension)
+<a name="random-password-generator">
+
+### Random Password Generator
+
+<a name="chrome-extension">
+
+### Chrome Extension
+````
