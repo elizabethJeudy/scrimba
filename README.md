@@ -16,7 +16,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/JjBpxXv
 
-###### Snippet: ![image](https://github.com/elizabethJeudy/scrimba/blob/main/images/stitch-counter.png?raw=true)
+###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/counter.png)
 
 #### What I Learned:
 
@@ -27,6 +27,8 @@ These 4 projects were completed while working on the Learn Javascript course wit
 ### Scoreboard
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/QWBQeMR
+
+###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/scoreboard.png)
 
 #### Challenges:
 
@@ -46,7 +48,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 </div>
 ```
 
-##### With this, all 6 buttons worked however, only the home scoreboard was incrementing. Since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was the create functions for both home and guest boards.
+##### With this, all 6 buttons worked however, only the home scoreboard was incrementing. Since this project was about working with onclick, using addEventListeners was not an option. The most logical solution for me (maybe not the most optimized) was to create functions for both home and guest boards.
 
 <a name="blackjack-game"></a>
 
@@ -54,11 +56,15 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/vYajxeZ
 
+###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/blackjack.png)
+
 <a name="random-password-generator">
 
 ### Random Password Generator
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/LYBgrBN
+
+###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/password.png)
 
 <a name="chrome-extension">
 
