@@ -40,7 +40,7 @@ These 4 projects were completed while working on the Learn Javascript course wit
 </div>
 ```
 
-
+/*
 <a name="blackjack-game"></a>
 
 ### Blackjack Game
@@ -54,5 +54,5 @@ These 4 projects were completed while working on the Learn Javascript course wit
 <a name="chrome-extension">
 
 ### Chrome Extension
-
+*/
 ````
