@@ -1,5 +1,3 @@
-// assign myLeads to empty array
-// assign inputEl to input field
 let myLeads = [];
 
 const inputEl = document.querySelector("#input-el");
@@ -11,14 +9,28 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
 if (leadsFromLocalStorage) {
 	myLeads = leadsFromLocalStorage;
-	renderLeads();
+	render(myLeads);
+}
+
+function render(leads) {
+	// create variable to hold all html, set to empty string
+	listItems = "";
+	// log out each item in myLeads
+	for (i = 0; i < leads.length; i++) {
+		// add items to variable
+		listItems += `<li>
+<a target='_blank' href = ${leads[i]}> 
+${leads[i]} </a>
+</li>`;
+	}
+	ulEl.innerHTML = listItems;
 }
 
 // clears saved input from storage, leads, and DOM
 deleteBtn.addEventListener("dblclick", function () {
 	localStorage.clear();
 	myLeads = [];
-	renderLeads();
+	render(myLeads);
 });
 
 inputBtn.addEventListener("click", function () {
@@ -26,22 +38,5 @@ inputBtn.addEventListener("click", function () {
 	inputEl.value = "";
 	// Save the myLeads array to localStorage
 	localStorage.setItem("myLeads", JSON.stringify(myLeads));
-	renderLeads();
-
-	// To verify that it works:
-	console.log(localStorage.getItem("myLeads"));
+	render(myLeads);
 });
-
-function renderLeads() {
-	// create variable to hold all html, set to empty string
-	listItems = "";
-	// log out each item in myLeads
-	for (i = 0; i < myLeads.length; i++) {
-		// add items to variable
-		listItems += `<li>
-<a target='_blank' href = ${myLeads[i]}> 
-${myLeads[i]} </a>
-</li>`;
-	}
-	ulEl.innerHTML = listItems;
-}
