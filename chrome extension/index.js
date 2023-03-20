@@ -13,24 +13,18 @@ if (leadsFromLocalStorage) {
 // grabs url of current tab and saves input
 tabBtn.addEventListener("click", function () {
 	// passes object to say which tab we want
-	chrome.tabs.query(
-		{
-			active: true,
-			currentWindow: true,
-		},
-		function (tabs) {
-			myLeads.push(tabs[0].url);
-			localStorage.setItem("myLeads", JSON.stringify(myLeads));
-			render(myLeads);
-		}
-	);
+	chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+		myLeads.push(tabs[0].url);
+		localStorage.setItem("myLeads", JSON.stringify(myLeads));
+		render(myLeads);
+	});
 });
 
 function render(leads) {
 	// create variable to hold all html, set to empty string
-	listItems = "";
+	let listItems = "";
 	// log out each item in myLeads
-	for (i = 0; i < leads.length; i++) {
+	for (let i = 0; i < leads.length; i++) {
 		// add items to variable
 		listItems += `<li>
 <a target='_blank' href = ${leads[i]}> 
