@@ -1,16 +1,23 @@
 let myLeads = [];
-
 const inputEl = document.querySelector("#input-el");
 const inputBtn = document.querySelector("#input-btn");
 const deleteBtn = document.querySelector("#delete-btn");
+const tabBtn = document.querySelector("#tab-btn");
 const ulEl = document.querySelector("#ul-el");
-
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
 if (leadsFromLocalStorage) {
 	myLeads = leadsFromLocalStorage;
 	render(myLeads);
 }
+// saves marked tab
+const tabs = [{ url: "https://www.elizabethjeudy.com" }];
+tabBtn.addEventListener("click", function () {
+	myLeads.push(tabs[0].url);
+	localStorage.setItem("myLeads", JSON.stringify(myLeads));
+	render(myLeads);
+	console.log(tabs[0].url);
+});
 
 function render(leads) {
 	// create variable to hold all html, set to empty string
