@@ -13,15 +13,17 @@ if (leadsFromLocalStorage) {
 // grabs url of current tab and saves input
 tabBtn.addEventListener("click", function () {
 	// passes object to say which tab we want
-	chrome.tabs.query({
-		active: true,
-		currentWindow: true,
-		function(tabs) {
+	chrome.tabs.query(
+		{
+			active: true,
+			currentWindow: true,
+		},
+		function (tabs) {
 			myLeads.push(tabs[0].url);
 			localStorage.setItem("myLeads", JSON.stringify(myLeads));
 			render(myLeads);
-		},
-	});
+		}
+	);
 });
 
 function render(leads) {
