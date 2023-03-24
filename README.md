@@ -58,6 +58,14 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/blackjack.png)
 
+#### What I Re-learned:
+
+##### \* _for loops_ - This project helped for loops click for me with remembering START; FINISH; ITERATE;
+
+#### Challenges:
+
+##### 1. My first challenge with this project was having a way to track the winner.
+
 <!-->
 <a name="random-password-generator">
 
@@ -67,8 +75,14 @@ These 4 projects were completed while working on the Learn Javascript course wit
 
 ###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/password.png)
 
+<!-->
+
 <a name="chrome-extension">
 
-### Chrome Extension (in process)
+### Chrome Extension
+
+<!--relearned template strings, add event listeners, localStorage, typeof, json.parse and json.stringify, truthy and falsy-->
 
 ###### Live: https://codepen.io/elizabethJeudy/pen/rNZeQwp
+
+###### Snippet: ![image](https://raw.githubusercontent.com/elizabethJeudy/scrimba/7fff3d520457027efcdd46abd5a64175bed8e6d1/images/extension.png)
